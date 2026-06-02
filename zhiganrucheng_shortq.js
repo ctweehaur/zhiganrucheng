@@ -86,7 +86,7 @@ const shortQData = [
         ],
         sEn: "Step 1: Extract the aligned academic lesson: every school project requires custom rigorous analysis rather than dogmatic dependency on rigid old models.<br>Step 2: Give a school task scenario: in science experiments or history report writing, rely strictly on active evidence; padding slides with disconnected templates to artificially hit word counts will only mutilate the overall grade.",
         aZh: "提醒我们做课业必须踏实，不能死板套公式或盲目轻信权威。例如我们在做学校项目报告时，必须结合当下的目标实事求是地分析，绝不能为了拼凑字数而强行套用不相关的旧模板（执竿入城），否则只会让最终的报告毫无实用价值、彻底不合格。",
-        aPy: "tí xǐng wǒ men zuò kè yè bì xū tà shí bù néng sǐ bǎn tào gōng shì huò máng mù qīng xìn quán wēi lì rú wǒ men zài zuò xué xiào xiàng mù bào gào shí bì xū jié hé dāng xià de mù biāo shí shì qiú shì de fēn xī jué bù néng wèi le pīn còu zì shù ér qiáng xíng tào yòng bù xiāng guān de jiù mú bǎn fǒu zé zhǐ huì ràng zuì zhòu de bào gào háo wú shí yòng jià zhí chè dǐ bù hé gé",
+        aPy: "tí xǐng wǒ men zuò kè yè bì xū tà shí bù néng sǐ bǎn tào gōng shì huò máng mù qīng xìn quán wēi lì rú wǒ men zài zuò xué xiào xiàng mù bào gào shí bì xū jié hé dāng xià de mù biāo shí shì qiú shì de fēn xī jué bù néng wèi le pīn còu zì shù ér qiáng xíng tào yòng bù xiāng guān de jiù mú bǎn zhí gān rù chéng fǒu zé zhǐ huì ràng zuì zhòu de bào gào háo wú shí yòng jià zhí chè dǐ bù hé gé",
         aEn: "It warns us to remain grounded in assignments, avoiding dead formulas or blind obedience. When compiling school group projects, we must analyze the active criteria logically; padding sections with obsolete templates just to meet cosmetic standards yields zero actual value and ruins the grade."
     }
 ];
