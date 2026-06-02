@@ -19,7 +19,7 @@ const quizQuestions = [
                 py: "qǐ chū gāng kāi shǐ kāi tóu",
                 en: "At first / initially / at the beginning.",
                 correct: true,
-                explanation: "正确！“初竖执之”指的就是他刚开始、最先尝试竖着拿竹竿。",
+                explanation: "“初竖执之”指的就是他刚开始、最先尝试竖着拿竹竿。",
                 explanationPy: "zhèng què chū shù zhí zhī zhǐ de jiù shì tā gāng kāi shǐ zuì xiān cháng shì shù zhe ná zhú gān",
                 explanationEn: "Correct! It shows that at the very beginning, he tried to hold the bamboo pole vertically."
             },
@@ -63,7 +63,7 @@ const quizQuestions = [
                 py: "yī huǐ ér bù jiǔ hěn kuài",
                 en: "Shortly after / soon / after a moment.",
                 correct: true,
-                explanation: "正确！“俄”是马来西亚文言文考试最常考的时间副词，指过去不久、很快发生。",
+                explanation: "“俄”是马来西亚文言文考试最常考的时间副词，指过去不久、很快发生。",
                 explanationPy: "zhèng què é shì mǎ lái xī yà wén yán wén kǎo shì zuì cháng kǎo de shí jiān fù cí zhǐ guò qù bù jiǔ hěn kuài fā shēng",
                 explanationEn: "Correct! This is a common time word in exams, meaning 'soon' or 'after a short while'."
             },
@@ -107,7 +107,7 @@ const quizQuestions = [
                 py: "yòng jù zǐ bǎ cháng zhú gān cóng zhèng zhōng jiān jié duàn zài jìn qù",
                 en: "Use a saw to cut the bamboo pole in half from the middle before entering.",
                 correct: true,
-                explanation: "正确！“中截”就是指从中间截断。这个馊主意虽然能进去，但长竿也彻底废了。",
+                explanation: "“中截”就是指从中间截断。这个馊主意虽然能进去，但长竿也彻底废了。",
                 explanationPy: "zhèng què zhōng jié jiù shì zhǐ cóng zhèng zhōng jiān jié duàn zhè gè sōu zhǔ yì suī rán néng jìn qù dàn cháng gān yě chè dǐ fèi le",
                 explanationEn: "Correct! 'Zhōng jié' means to cut from the middle. This bad idea lets him in, but destroys the useful pole."
             },
@@ -151,7 +151,7 @@ const quizQuestions = [
                 py: "cháng gān shù zhe ná gāo guò chéng mén héng zhe ná kuān guò chéng mén dǎo zhì zěn me dōu kǎ zhù jìn bú qù",
                 en: "The pole held vertically was too tall, and horizontally too wide, causing it to get stuck either way.",
                 correct: true,
-                explanation: "正确！“竖执之不可入，横执之亦不可入”精准写出了他横竖都卡在门外的笨拙窘境。",
+                explanation: "“竖执之不可入，横执之亦不可入”精准写出了他横竖都卡在门外的笨拙窘境。",
                 explanationPy: "zhèng què shù zhí zhī bù kě rù héng zhí zhī yì bù kě rù jīng zhǔn xiě chū le tā héng shù dōu kǎ zài mén wài de bèn zhuō jiǒng jìng",
                 explanationEn: "Correct! He was stuck because the pole was too tall vertically and too wide horizontally."
             },
@@ -195,7 +195,7 @@ const quizQuestions = [
                 py: "shùn zhe jìn chéng de fāng xiàng qián hòu shù zhí de bǎ cháng zhú gān duì zhǔn chéng mén shùn jìn qù",
                 en: "Align the pole pointing straight forward and backward, sliding it through the gate path.",
                 correct: true,
-                explanation: "正确！既然城门有深度，只要把长竿顺着走路的方向前后拿着，利用城门的纵深空间就能轻松通过，完全不伤长竿。",
+                explanation: "既然城门有深度，只要把长竿顺着走路的方向前后拿着，利用城门的纵深空间就能轻松通过，完全不伤长竿。",
                 explanationPy: "zhèng què jì rán chéng mén yǒu shēn dù zhǐ yào bǎ cháng gān shùn zhe zǒu lù de fāng xiàng qián hòu ná zhe lì yòng chéng mén de zòng shēn kōng jiān jiù néng qīng sōng tōng guò wán quán bú shàng cháng gān",
                 explanationEn: "Correct! The gate has depth. He just needed to point the pole straight forward to walk right through it safely."
             },
