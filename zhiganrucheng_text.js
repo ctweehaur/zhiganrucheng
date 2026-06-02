@@ -46,7 +46,7 @@ const poemData = [
     { text: "锯", py: "jù", zh: "锯子。", en: "a saw" },
     { text: "中", py: "zhōng", zh: "从中间，正中。", en: "to cut it from the middle" },
     { text: "截", py: "jié", zh: "动词，截断，砍断。", en: "and then", exam: true },
-    { text: "而", py: "aim", zh: "连词，表顺承，然后。", en: "go" },
+    { text: "而", py: "ér", zh: "连词，表顺承，然后。", en: "go" },
     { text: "入", py: "rù", zh: "进去？法”", en: "in?”" },
     { text: "?”", punc: true },
     { text: "遂", py: "suì", zh: "副词，于是，就。", en: "So he then", exam: true },
