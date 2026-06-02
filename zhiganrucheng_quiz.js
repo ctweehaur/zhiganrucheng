@@ -42,7 +42,7 @@ const quizQuestions = [
     {
         id: 2,
         text: "文中句子“俄有老父至”中，“俄”字的意思是？",
-        py: "wén zhāng zhōng jù zǐ é yǒu lǎo fǔ zhì zhōng é zì de yì si shì",
+        py: "wén zhōng jù zǐ é yǒu lǎo fǔ zhì zhōng é zì de yì si shì",
         en: "What does the character 'é' mean in 'é yǒu lǎo fǔ zhì'?",
         options: [
             {
