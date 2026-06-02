@@ -3,13 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 1. 修改了网页标签的标题 -->
     <title>互动古文：执竿入城 · 笑林 (中英双语·词解版)</title>
     
-    <!-- 引入独立CSS (保持不变) -->
     <link rel="stylesheet" href="classic_style.css">
     
-    <!-- 2. 修改了引入的 5 个 JS 数据包文件名 -->
     <script src="zhiganrucheng_text.js"></script>
     <script src="zhiganrucheng_translation.js"></script>
     <script src="zhiganrucheng_analysis.js"></script>
@@ -20,14 +17,11 @@
  
 <div class="app-container">
     <div class="header-section">
-        <!-- 3. 修改了网页顶部的文章大标题 -->
         <h1 class="title">执竿入城</h1>
-        <!-- 4. 修改了作者与出处信息 -->
         <p class="author">《笑林》 / 邯郸淳 (三国)</p>
     </div>
     
     <div class="poem-container">
-        <!-- 古文原文动态容器 -->
         <div id="dynamic-poem-container"></div>
         
         <div class="translation-block" id="translationBlock">
@@ -72,8 +66,8 @@
     let pIdx = 0;
     let html = '';
     for (let c of chars) {
-        // 【核心精准修复】：正则表达式中加入了 … 从而让全角省略号以及点号全部进入不消耗拼音的标点分支！
-        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…]/.test(c)) {
+        // 【核心精准修复】：正则表达式末尾新增 \/，让半角斜杠自动判定为标点，绝不吞噬和位移拼音！
+        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…\/]/.test(c)) {
             html += `<span class="punctuation">${c}</span>`;
         } else {
             const p = pys[pIdx] || '';
@@ -93,8 +87,8 @@ function alignTextWithPrefix(prefix, zh, py) {
     html += `<span class="char-box" style="margin-right: 8px !important;"><span class="py-text">&nbsp;</span><span class="zh-text" style="font-weight: bold; color: #1e293b;">${prefix}</span></span>`;
     let pIdx = 0;
     for (let c of chars) {
-        // 【核心精准修复】：在这里同步加入 … 符号拦截过滤
-        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…]/.test(c)) {
+        // 【核心精准修复】：同步追加 \/ 拦截机制
+        if (/[Epic，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…\/]/.test(c)) {
             html += `<span class="punctuation">${c}</span>`;
         } else {
             const p = pys[pIdx] || '';
@@ -295,7 +289,7 @@ function alignTextWithPrefix(prefix, zh, py) {
                         fbDiv.innerHTML = `
                             <div class="fb-line"><span class="fb-label error-txt">❌ 回答错误。正确答案是：</span><span class="fb-content-main">${correctOptText}</span></div>
                             <div class="fb-en">💬 Correct Answer: ${correctOptEn}</div>
-                            <div class="fb-line" style="margin-top: 8px;"><span class="fb-label">📖 你选择的选项分析：</span><span class="fb-content">${alignText(wrongExp, wrongExpPy)}</span></div>
+                            <div class="fb-line" style="margin-top: 8px;"><span class="fb-label">📖 你选择的选项 analysis：</span><span class="fb-content">${alignText(wrongExp, wrongExpPy)}</span></div>
                             <div class="fb-en">💬 Your Choice Analysis: ${wrongExpEn}</div>
                             <div class="fb-line" style="margin-top: 8px;"><span class="fb-label">📖 正确选项解析：</span><span class="fb-content">${alignText(correctExp, correctExpPy)}</span></div>
                             <div class="fb-en">💬 Correct Option Analysis: ${correctExpEn}</div>`;
