@@ -73,7 +73,7 @@ const shortQData = [
     },
     {
         id: "Q5",
-        qZh: "大马中学生在平时的学校课业课题（Project）协作中，应如何避免犯下和故事中两人一样的“形式主义”错误？",
+        qZh: "大马中学生在平时的学校课业课题协作中，应如何避免犯下和故事中两人一样的“形式主义”错误？",
         qPy: "dà mǎ zhōng xué shēng zài píng shí de xué xiào kè yè kè tí xié zuò zhōng yīng rú hé bì miǎn fàn xià hé gù shì zhōng liǎng rén yī yàng de xíng shì zhǔ yì cuò wù",
         qEn: "How can Malaysian secondary students avoid repeating the superficial and rigid mistakes of these characters in school project work?",
         sZh: [
